@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with Contact App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Library Used
+1. react react-client
+[React Quickstart](https://zh-hans.react.dev/learn)
+1. react-router-dom
+[React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
 
 ## Available Scripts
 
