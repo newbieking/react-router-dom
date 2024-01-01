@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoList from './components/TodoList';
 
-function App() {
+const TODO_LIST = [
+  { id: 1, title: "playing game...", createTime: new Date(), deadLine: new Date() },
+  { id: 2, title: "writing blog...", createTime: new Date(), deadLine: new Date() },
+  { id: 3, title: "reading note...", createTime: new Date(), deadLine: new Date() },
+]
+
+function  App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <TodoList todoList={TODO_LIST} />
     </div>
   );
 }
